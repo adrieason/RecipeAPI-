@@ -1,0 +1,61 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background-color: white;
+}
+h1 {
+  color: black;
+  font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+img {
+  width: 60%;
+  border: black solid;
+}
+
+section {
+  margin: 10px;
+}
+
+section {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+  padding: 0
+}
+
+header{
+  border: solid black 2px;
+  border-radius: 15%;
+}
+
+#results{
+  margin: 10%
+}
